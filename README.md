@@ -27,7 +27,7 @@ Kamera überwachung mit einem Raspberry Pi
 4. Der Kamera Raspberry Pi schiesst ausgelöst von dem [Skript](https://github.com/Uelimueli/W902) ein Foto von der Türe.
 5. Das Foto wird per [Skript](https://github.com/Uelimueli/W902) auf eine Cloud, im Beispiel Dropbox geladen.
 
-###Grafische Darstellung
+### Grafische Darstellung
 ![Grafik](https://github.com/Uelimueli/W902/blob/master/Grafik.png "Darstellung Grafisch")
 
 Vagrant.configure("2") do |config|
