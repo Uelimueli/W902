@@ -22,7 +22,7 @@ Kamera überwachung mit einem Raspberry Pi
 ## Beschreibung
 ### Funktionsprinzip
 1. Der Raspberry Pi mit dem angeschlossenen Ultraschall Sensor wird bei der zu überwachenden Türe Platziert.
-Mit dem Python [Skript](https://github.com/Uelimueli/W902E)
+Mit dem Python [Skript](https://github.com/Uelimueli/W902)
 The whole programm configuration is only on this one file.
 After you created a Folder with a from you choosen name, you have to create a vagrant file. in this file you can past the following code.
 ```Vagrant File
