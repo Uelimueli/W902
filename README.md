@@ -2,22 +2,27 @@
 Elia Bruno, Michael Gerber
 Kamera überwachung mit einem Raspberry Pi 
 ## Übersicht
-1. Beschreibung
-2. Konfiguration
-3. Test
-4. Evaluation
+1. Vorbereitung
+2. Beschreibung
+3. Konfiguration
+4. Links der Theorie
+5. Sicherheitsaspekte
+6. Transfer in die Praxis
 
-## Beschreibung
+## Vorbereitung
 ### Benötigtes Equipment:
 * Ultrasonic Sensor - HC-SR04 [Ultrasonic Sensor](https://www.sparkfun.com/products/13959 "Ultrasonic Sensor Link")
-* Camera Module V2 [Camera Module](https://www.raspberrypi.org/products/camera-module-v2/ "Camera Module Link")
+* Camera Module V2 [Kamera Modul](https://www.raspberrypi.org/products/camera-module-v2/ "Kamera Modul Link")
 * Raspberry Pi [Raspberry Pi](https://www.raspberrypi.org/products/ "Raspberry Pi Link")
-* Install Python [Python](https://www.python.org/downloads/ "Python Download Link")
-### Network plan
-![Logical Network Diagram](https://github.com/Uelimueli/Modul-300/blob/master/Netzwerkplan.png "Network Diagram")
+### Benötigte Software
+* Installiere Raspbian [Raspbian](https://www.raspberrypi.org/downloads/raspbian/ "Raspbian Download Link")
+* Installiere Python [Python](https://www.python.org/downloads/ "Python Download Link")
 
-## Configuration
-### Vagrant File configuration
+
+## Beschreibung
+### Funktionsprinzip
+1. Der Raspberry Pi mit dem angeschlossenen Ultraschall Sensor wird bei der zu überwachenden Türe Platziert.
+Mit dem Python [Skript](https://github.com/Uelimueli/W902E)
 The whole programm configuration is only on this one file.
 After you created a Folder with a from you choosen name, you have to create a vagrant file. in this file you can past the following code.
 ```Vagrant File
