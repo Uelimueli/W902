@@ -10,7 +10,7 @@ Kamera überwachung mit einem Raspberry Pi
 ## Beschreibung
 ### Benötigtes Equipment:
 * Ultrasonic Sensor - HC-SR04 [Ultrasonic Sensor](https://www.sparkfun.com/products/13959 "Ultrasonic Sensor Link")
-* Install [VirtualBox](https://www.virtualbox.org/wiki/Downloads "VirtualBox Download Link")
+* Camera Module V2 [Camera Module](https://www.raspberrypi.org/products/camera-module-v2/ "Camera Module Link")
 * Install Shell [GIT](https://git-scm.com/downloads "GIT Download Link")
 * Install Ubuntu Server [Ubuntu](https://www.ubuntu.com/download/server "Ubuntu Download Link")
 ### Network plan
