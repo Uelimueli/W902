@@ -22,10 +22,10 @@ Kamera überwachung mit einem Raspberry Pi
 ## Beschreibung
 ### Funktionsprinzip
 1. Der Raspberry Pi mit dem angeschlossenen Ultraschall Sensor wird bei der zu überwachenden Türe Platziert.
-Mit dem Python [Skript](https://github.com/Uelimueli/W902)
-The whole programm configuration is only on this one file.
-After you created a Folder with a from you choosen name, you have to create a vagrant file. in this file you can past the following code.
-```Vagrant File
+2. Mit dem Python [Skript](https://github.com/Uelimueli/W902) wird eine Meldung ausgegeben wenn eine Distanzveränderung stattfindet.
+3. Die Meldung wird per X an den 2ten Raspberry Pi mit der Kamera geleitet.
+4. Der Kamera Raspberry Pi schiesst ausgelöst von dem [Skript](https://github.com/Uelimueli/W902) ein Foto von der Türe.
+5. Das Foto wird per [Skript](https://github.com/Uelimueli/W902) auf eine Cloud, im Beispiel Dropbox geladen.
 
 Vagrant.configure("2") do |config|
   # The most common configuration options are documented and commented below.
