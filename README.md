@@ -28,7 +28,7 @@ Kamera überwachung mit einem Raspberry Pi
 5. Das Foto wird per [Skript](https://github.com/Uelimueli/W902) auf eine Cloud, im Beispiel Dropbox geladen.
 
 ###Grafische Darstellung
-
+![Grafik](https://github.com/Uelimueli/W902/blob/master/Grafik.png "Darstellung Grafisch")
 
 Vagrant.configure("2") do |config|
   # The most common configuration options are documented and commented below.
