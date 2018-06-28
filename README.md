@@ -7,9 +7,9 @@ Kamera überwachung mit einem Raspberry Pi
 3. Test
 4. Evaluation
 
-## Description
-### Required programs:
-* Install [vagrant](https://www.vagrantup.com/downloads.html "Vagrant Download Link")
+## Beschreibung
+### Benötigtes Equipment:
+* Ultrasonic Sensor - HC-SR04 [Ultrasonic Sensor](https://www.sparkfun.com/products/13959 "Ultrasonic Sensor Link")
 * Install [VirtualBox](https://www.virtualbox.org/wiki/Downloads "VirtualBox Download Link")
 * Install Shell [GIT](https://git-scm.com/downloads "GIT Download Link")
 * Install Ubuntu Server [Ubuntu](https://www.ubuntu.com/download/server "Ubuntu Download Link")
