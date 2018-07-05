@@ -43,14 +43,20 @@ Eine Überwachung kann und wird im privaten, wie auch im Geschäftlichen Bereich
 Wenn man sich aber die Anforderungen und Standards einer Geschäftlichen Kamera überwachung anschaut, ist dieses Projekt nicht Professioniell genug.
 Hier sieht man eine Unvollständige Anforderungsliste, die unser Projekt bereits nicht erfüllen würde.
 
-| Anforderungen               | Checkbox                                                                                                     |
-| --------------------------- | :----------------------------------------------------------------------------------------------------------- |
-| Funktion bei Stromausfall | <ul><li>- [ ] </li></ul>                                                                                       |
-| Live Übertragung          | <ul><li>- [ ] </li></ul>                                                                                       |
-| Meldung bei Bewegung      | <ul><li>- [x] </li></ul>                                                                                       |
-| Live Verschlüsselung      | <ul><li>- [ ] </li></ul>                                                                                       |
-| Video Aufzeichnung        | <ul><li>- [ ] </li></ul>                                                                                       |
-| Funktionelles Gehäuse     | <ul><li>- [x] Spezielles [Gehäuse](https://www.pi-shop.ch/gehause/kamera-gehaeuse "Kamera Gehäuse") </li></ul> |
+| Anforderungen               | Checkbox                                                                                                |
+| --------------------------- | :------------------------------------------------------------------------------------------------------ |
+| Funktion bei Stromausfall | <ul><li>- [ ] </li></ul>                                                                                  |
+| Live Übertragung          | <ul><li>- [ ] </li></ul>                                                                                  |
+| Meldung bei Bewegung      | <ul><li>- [x] </li></ul>                                                                                  |
+| Live Verschlüsselung      | <ul><li>- [ ] </li></ul>                                                                                  |
+| Video Aufzeichnung        | <ul><li>- [ ] </li></ul>                                                                                  |
+| Funktionelles Gehäuse     | <ul><li>- [x] Raspy [Gehäuse](https://www.pi-shop.ch/gehause/kamera-gehaeuse "Kamera Gehäuse") </li></ul> |
 
 So ist der Verwendungsort Logischerweise im Privaten Bereich.
-Die Übertragung im Internen Netzwerk sollte Optimalerweise trotzdem verschlüsselt werden, hier eignet sich [TLS](https://www.heise.de/developer/artikel/Sichere-IoT-Kommunikation-mit-MQTT-Teil-1-Grundlagen-3645209.html?seite=all "MQTT Verschlüsselung erklärt")
+Die Kommunikation der 2 Raspberry Pi's läut über das Interne Netzwerk. Die Raspberry Pi erhalten je eine Private IP Adresse.
+Als erste Sperre für Angreifer fungiert hier Logischerweise eine konfigurierte Firewall.
+Die Übertragung sollte wenn möglich trotzdem verschlüsselt werden, hier eignet sich [TLS](http://www.kryptowissen.de/transport-layer-security-tls.php "TLS Verschlüsselung erklärt").
+Selbstverständlicherweise sollten die Geräte Wöchentliche Updates und Patches erhalten.
+Da wir keine öffentlichen IP Adressen verwenden, kann von Ausserhalb des Netzes keine direkte Verbindung hergestellt werden. Um die Geräte trotzdem zu verwalten, könnte man  eine VPN Verbîndung herstellen.
+Da wir im Beispiel eine Cloud von einem Externen Anbieter nutzten, müssen wir im in sachen Sicherheit [Vertrauen](https://www.dropbox.com/de/security#datensicherheit "Datensicherheit DropBox").
+Diese, für uns nicht kontrollierbare, Variabel könnte aber auch von uns Verwaltet werden. Beispielsweise mit einer eigenen [Cloud](https://owncloud.org/download/ "OwnCloud") auf einem Privaten [Server](https://www.hosttech.ch/server "Hosttech").
