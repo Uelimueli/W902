@@ -68,19 +68,19 @@ Eine Erläuterung weshalb dieses Projekt bestimmt nicht eins zu eins im Geschäf
 Doch neben den Sicherheitsanpassungen sind auch weitere Punkte von Bedeutung, um dieses Equipment anzuwenden.  
 Erforderliche Schritte um das ganze nutzen können, werde ich nun auflisten:
 
-1. _Hardwareanforderungen:_  
-         Güstigere Version der Clients, eventuell  
-         Bewegungsmelder mit grösserer Reichweitenabdeckung  
-         Überwachungskamera  
+1. __Hardwareanforderungen:__  
+Güstigere Version der Clients, eventuell  
+Bewegungsmelder mit grösserer Reichweitenabdeckung  
+Überwachungskamera  
 
-2. _Sicherheitsaspekte:_  
+2. __Sicherheitsaspekte:__  
 Private IP Adresse  
 Firewall  
 TLS Verschlüsselung  
 VPN  
 Eigene Cloud  
-3.  _Handling:_  
+3.  __Handling:__  
 
-4. _Umgebung:_  
+4. __Umgebung:__  
 
-5. _Fremdeinflüsse:_  
+5. __Fremdeinflüsse:__  
