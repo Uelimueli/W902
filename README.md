@@ -50,7 +50,7 @@ Hier sieht man eine Unvollständige Anforderungsliste, die unser Projekt bereits
 | Meldung bei Bewegung      | <ul><li>- [x] </li></ul>                                                                                        |
 | Live Verschlüsselung      | <ul><li>- [ ] </li></ul>                                                                                        |
 | Video Aufzeichnung        | <ul><li>- [ ] </li></ul>                                                                                        |
-| Funktionelles Gehäuse     | <ul><li> Spezielles [Gehäuse](https://www.pi-shop.ch/gehause/kamera-gehaeuse "Kamera Gehäuse") - [x] </li></ul> |
+| Funktionelles Gehäuse     | <ul> Spezielles [Gehäuse](https://www.pi-shop.ch/gehause/kamera-gehaeuse "Kamera Gehäuse") - [x] </ul> |
 
 So ist der Verwendungsort Logischerweise im Privaten Bereich.
 Die Übertragung im Internen Netzwerk sollte Optimalerweise trotzdem verschlüsselt werden, hier eignet sich [TLS](https://www.heise.de/developer/artikel/Sichere-IoT-Kommunikation-mit-MQTT-Teil-1-Grundlagen-3645209.html?seite=all "MQTT Verschlüsselung erklärt")
