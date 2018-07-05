@@ -34,11 +34,17 @@ Kamera überwachung mit einem Raspberry Pi
 ## Konfiguration
 x
 
-##Theorie und Links
-
+## Theorie und Links
 Erklärung der Funktionsweise von Ultraschallsensoren[I'm an inline-style link with title](https://www.microsonic.de/de/service/ultraschallsensoren/prinzip.htm "Ultraschallsensor Funktion")
 
 
-##Sicherheitsaspekte
+## Sicherheitsaspekte
+Die erste Frage die sich bei dieser Konfiguration und Funktion stellt, ist die Umgebung für den Einsatz.
+Eine Überwachung wird im privaten wie auch im Geschäftlichen Bereich genutzt.
+Wenn man sich aber die Anforderungen und Standards einer Geschäftlichen Kamera überwachung anschaut, ist dieses Projekt nicht Professioniell genug.
 
-Die erste Frage die sich bei dieser 
+| Anforderungen             | Checkbox      |
+| ------------------------- |:-------------:|
+| Lückenlose Überwachung    | - [ ]         |
+| Funktion bei Stromausfall | centered      |
+| Live Übertragung          | are neat      |
