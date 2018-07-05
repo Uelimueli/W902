@@ -43,9 +43,11 @@ Die erste Frage die sich bei dieser Konfiguration und Funktion stellt, ist die U
 Eine Überwachung wird im privaten wie auch im Geschäftlichen Bereich genutzt.
 Wenn man sich aber die Anforderungen und Standards einer Geschäftlichen Kamera überwachung anschaut, ist dieses Projekt nicht Professioniell genug.
 
-| Anforderungen             | Checkbox                                          |
-| ------------------------- |:-------------------------------------------------:|
-| Lückenlose Überwachung    | <ul><li>- [ ] </li></ul> |
-| Funktion bei Stromausfall | - [ ]         |
-| Live Übertragung          | - [ ]         |
-| Meldung bei Bewegung      | 
+| Anforderungen               | Checkbox                                                                                                     |
+| --------------------------- |:------------------------------------------------------------------------------------------------------------:|
+| Funktion bei Stromausfall | <ul><li>- [ ] </li></ul>                                                                                       |
+| Live Übertragung          | <ul><li>- [ ] </li></ul>                                                                                       |
+| Meldung bei Bewegung      | <ul><li>- [x] </li></ul>                                                                                       |
+| Live Verschlüsselung      | <ul><li>- [ ] </li></ul>                                                                                       |
+| Video Aufzeichnung        | <ul><li>- [ ] </li></ul>                                                                                       |
+| Funktionelles Gehäuse     | <ul><li>- [x] Spezielles [Gehäuse](https://www.pi-shop.ch/gehause/kamera-gehaeuse "Kamera Gehäuse") </li></ul> |
