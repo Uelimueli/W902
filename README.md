@@ -34,19 +34,21 @@ Kamera überwachung mit einem Raspberry Pi
 ## Konfiguration
 x
 
+
 ## Theorie und Links
 Erklärung der Funktionsweise von [Ultraschallsensoren](https://www.microsonic.de/de/service/ultraschallsensoren/prinzip.htm "Ultraschallsensor Funktion")
+
 
 ## Sicherheitsaspekte
 Die erste Frage die sich bei dieser Konfiguration und Funktion stellt, ist die Umgebung für den Einsatz.
 Eine Überwachung kann und wird im privaten, wie auch im Geschäftlichen Bereich genutzt.
-Wenn man sich aber die Anforderungen und Standards einer Geschäftlichen Kamera überwachung anschaut, ist dieses Projekt nicht Professioniell genug.
+Wenn man sich aber die Anforderungen und Standards einer Geschäftlichen Kamera überwachung anschaut, ist dieses Projekt nicht professioniell genug.
 Hier sieht man eine Unvollständige Anforderungsliste, die unser Projekt bereits nicht erfüllen würde.
 
-| Anforderungen               | Checkbox                                                                                                |
-| --------------------------- | :------------------------------------------------------------------------------------------------------ |
+| Anforderungen             | Checkbox                                                                                                  |
+| ------------------------- | :-------------------------------------------------------------------------------------------------------- |
 | Funktion bei Stromausfall | <ul><li>- [ ] </li></ul>                                                                                  |
-| Live Übertragung          | <ul><li>- [ ] </li></ul>                                                                                  |
+| Live Monitoring           | <ul><li>- [ ] </li></ul>                                                                                  |
 | Meldung bei Bewegung      | <ul><li>- [x] </li></ul>                                                                                  |
 | Live Verschlüsselung      | <ul><li>- [ ] </li></ul>                                                                                  |
 | Video Aufzeichnung        | <ul><li>- [ ] </li></ul>                                                                                  |
@@ -60,3 +62,19 @@ Selbstverständlicherweise sollten die Geräte Wöchentliche Updates und Patches
 Da wir keine öffentlichen IP Adressen verwenden, kann von Ausserhalb des Netzes keine direkte Verbindung hergestellt werden. Um die Geräte trotzdem zu verwalten, könnte man  eine VPN Verbîndung herstellen.
 Da wir im Beispiel eine Cloud von einem Externen Anbieter nutzten, müssen wir im in sachen Sicherheit [Vertrauen](https://www.dropbox.com/de/security#datensicherheit "Datensicherheit DropBox").
 Diese, für uns nicht kontrollierbare, Variabel könnte aber auch von uns Verwaltet werden. Beispielsweise mit einer eigenen [Cloud](https://owncloud.org/download/ "OwnCloud") auf einem Privaten [Server](https://www.hosttech.ch/server "Hosttech").
+
+## Transfer in die Praxis
+Eine Erläuterung weshalb dieses Projekt bestimmt nicht eins zu eins im Geschäftlichen Bereich genutzt werden kann, findet man im Kapitel Sicherheitsaspekte.
+Doch neben den Sicherheitsanpassungen sind auch weitere Punkte von Bedeutung, um dieses Equipment anzuwenden.
+Erforderliche Schritte um das ganze nutzen können, werde ich nun auflisten:
+
+1. Hardwareanforderungen:
+     Güstigere Version der Clients, eventuell 
+     Bewegungsmelder mit grösserer Reichweitenabdeckung
+     Überwachungskamera
+2. Sicherheitsaspekte
+    
+3. 
+4. 
+5. 
+6. 
