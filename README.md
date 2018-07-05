@@ -32,8 +32,11 @@ Kamera überwachung mit einem Raspberry Pi
 ![Grafik](https://github.com/Uelimueli/W902/blob/master/Grafik.png "Darstellung Grafisch")
 
 ## Konfiguration
-
+x
 
 ##Theorie und Links
 Erklärung der Funktionsweise von Ultraschallsensoren[I'm an inline-style link with title](https://www.microsonic.de/de/service/ultraschallsensoren/prinzip.htm "Ultraschallsensor Funktion")
 
+
+##Sicherheitsaspekte
+Die erste Frage die sich bei dieser 
