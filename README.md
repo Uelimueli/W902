@@ -42,6 +42,7 @@ Die erste Frage die sich bei dieser Konfiguration und Funktion stellt, ist die U
 Eine Überwachung kann und wird im privaten, wie auch im Geschäftlichen Bereich genutzt.
 Wenn man sich aber die Anforderungen und Standards einer Geschäftlichen Kamera überwachung anschaut, ist dieses Projekt nicht Professioniell genug.
 Hier sieht man eine Unvollständige Anforderungsliste, die unser Projekt bereits nicht erfüllen würde.
+
 | Anforderungen               | Checkbox                                                                                                     |
 | --------------------------- |:------------------------------------------------------------------------------------------------------------:|
 | Funktion bei Stromausfall | <ul><li>- [ ] </li></ul>                                                                                       |
