@@ -69,13 +69,17 @@ Doch neben den Sicherheitsanpassungen sind auch weitere Punkte von Bedeutung, um
 Erforderliche Schritte um das ganze nutzen können, werde ich nun auflisten:
 
 1. Hardwareanforderungen:  
-         Güstigere Version der Clients, eventuell
-         Bewegungsmelder mit grösserer Reichweitenabdeckung
-         Überwachungskamera
+         Güstigere Version der Clients, eventuell  
+         Bewegungsmelder mit grösserer Reichweitenabdeckung  
+         Überwachungskamera  
 
-2. Sicherheitsaspekte
-    
-3. 
+2. Sicherheitsaspekte:  
+    Private IP Adresse  
+    Firewall  
+    TLS Verschlüsselung  
+    VPN  
+    Eigene Cloud  
+3.  Handling:  
 4. 
 5. 
 6. 
