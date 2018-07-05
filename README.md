@@ -69,9 +69,13 @@ Doch neben den Sicherheitsanpassungen sind auch weitere Punkte von Bedeutung, um
 Erforderliche Schritte um das ganze nutzen können, werde ich nun auflisten:
 
 1. Hardwareanforderungen:
-         Güstigere Version der Clients, eventuell 
+
+         Güstigere Version der Clients, eventuell
+
          Bewegungsmelder mit grösserer Reichweitenabdeckung
+
          Überwachungskamera
+         
 2. Sicherheitsaspekte
     
 3. 
