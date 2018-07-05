@@ -43,14 +43,14 @@ Eine Überwachung kann und wird im privaten, wie auch im Geschäftlichen Bereich
 Wenn man sich aber die Anforderungen und Standards einer Geschäftlichen Kamera überwachung anschaut, ist dieses Projekt nicht Professioniell genug.
 Hier sieht man eine Unvollständige Anforderungsliste, die unser Projekt bereits nicht erfüllen würde.
 
-| Anforderungen               | Checkbox                                                                                                     |
-| --------------------------- | -----------------------------------------------------------------------------------------------------------: |
-| Funktion bei Stromausfall | <ul><li>- [ ] </li></ul>                                                                                       |
-| Live Übertragung          | <ul><li>- [ ] </li></ul>                                                                                       |
-| Meldung bei Bewegung      | <ul><li>- [x] </li></ul>                                                                                       |
-| Live Verschlüsselung      | <ul><li>- [ ] </li></ul>                                                                                       |
-| Video Aufzeichnung        | <ul><li>- [ ] </li></ul>                                                                                       |
-| Funktionelles Gehäuse     | <ul><li>- [x] Spezielles [Gehäuse](https://www.pi-shop.ch/gehause/kamera-gehaeuse "Kamera Gehäuse") </li></ul> |
+| Anforderungen               | Checkbox                                                                                                      |
+| --------------------------- | ------------------------------------------------------------------------------------------------------------: |
+| Funktion bei Stromausfall | <ul><li>- [ ] </li></ul>                                                                                        |
+| Live Übertragung          | <ul><li>- [ ] </li></ul>                                                                                        |
+| Meldung bei Bewegung      | <ul><li>- [x] </li></ul>                                                                                        |
+| Live Verschlüsselung      | <ul><li>- [ ] </li></ul>                                                                                        |
+| Video Aufzeichnung        | <ul><li>- [ ] </li></ul>                                                                                        |
+| Funktionelles Gehäuse     | <ul><li> Spezielles [Gehäuse](https://www.pi-shop.ch/gehause/kamera-gehaeuse "Kamera Gehäuse") - [x] </li></ul> |
 
 So ist der Verwendungsort Logischerweise im Privaten Bereich.
 Die Übertragung im Internen Netzwerk sollte Optimalerweise trotzdem verschlüsselt werden, hier eignet sich [TLS](https://www.heise.de/developer/artikel/Sichere-IoT-Kommunikation-mit-MQTT-Teil-1-Grundlagen-3645209.html?seite=all "MQTT Verschlüsselung erklärt")
