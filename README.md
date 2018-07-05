@@ -46,5 +46,5 @@ Wenn man sich aber die Anforderungen und Standards einer Geschäftlichen Kamera 
 | Anforderungen             | Checkbox      |
 | ------------------------- |:-------------:|
 | Lückenlose Überwachung    | - [ ]         |
-| Funktion bei Stromausfall | centered      |
-| Live Übertragung          | are neat      |
+| Funktion bei Stromausfall | - [ ]         |
+| Live Übertragung          | - [ ]         |
