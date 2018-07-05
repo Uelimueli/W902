@@ -35,14 +35,14 @@ Kamera überwachung mit einem Raspberry Pi
 x
 
 ## Theorie und Links
-Erklärung der Funktionsweise von Ultraschallsensoren[I'm an inline-style link with title](https://www.microsonic.de/de/service/ultraschallsensoren/prinzip.htm "Ultraschallsensor Funktion")
+Erklärung der Funktionsweise von [Ultraschallsensoren](https://www.microsonic.de/de/service/ultraschallsensoren/prinzip.htm "Ultraschallsensor Funktion")
 
 
 ## Sicherheitsaspekte
 Die erste Frage die sich bei dieser Konfiguration und Funktion stellt, ist die Umgebung für den Einsatz.
-Eine Überwachung wird im privaten wie auch im Geschäftlichen Bereich genutzt.
+Eine Überwachung kann und wird im privaten, wie auch im Geschäftlichen Bereich genutzt.
 Wenn man sich aber die Anforderungen und Standards einer Geschäftlichen Kamera überwachung anschaut, ist dieses Projekt nicht Professioniell genug.
-
+Hier sieht man eine Unvollständige Anforderungsliste, die unser Projekt bereits nicht erfüllen würde.
 | Anforderungen               | Checkbox                                                                                                     |
 | --------------------------- |:------------------------------------------------------------------------------------------------------------:|
 | Funktion bei Stromausfall | <ul><li>- [ ] </li></ul>                                                                                       |
@@ -51,3 +51,5 @@ Wenn man sich aber die Anforderungen und Standards einer Geschäftlichen Kamera 
 | Live Verschlüsselung      | <ul><li>- [ ] </li></ul>                                                                                       |
 | Video Aufzeichnung        | <ul><li>- [ ] </li></ul>                                                                                       |
 | Funktionelles Gehäuse     | <ul><li>- [x] Spezielles [Gehäuse](https://www.pi-shop.ch/gehause/kamera-gehaeuse "Kamera Gehäuse") </li></ul> |
+So ist der Verwendungsort Logischerweise im Privaten Bereich.
+Die Übertragung im Internen Netzwerk sollte Optimalerweise trotzdem verschlüsselt werden, hier eignet sich [TLS](https://www.heise.de/developer/artikel/Sichere-IoT-Kommunikation-mit-MQTT-Teil-1-Grundlagen-3645209.html?seite=all "MQTT Verschlüsselung erklärt")
