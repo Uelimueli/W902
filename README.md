@@ -44,7 +44,7 @@ Wenn man sich aber die Anforderungen und Standards einer Geschäftlichen Kamera 
 Hier sieht man eine Unvollständige Anforderungsliste, die unser Projekt bereits nicht erfüllen würde.
 
 | Anforderungen               | Checkbox                                                                                                     |
-| --------------------------- |:------------------------------------------------------------------------------------------------------------:|
+| --------------------------- | ------------------------------------------------------------------------------------------------------------ |
 | Funktion bei Stromausfall | <ul><li>- [ ] </li></ul>                                                                                       |
 | Live Übertragung          | <ul><li>- [ ] </li></ul>                                                                                       |
 | Meldung bei Bewegung      | <ul><li>- [x] </li></ul>                                                                                       |
