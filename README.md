@@ -37,7 +37,6 @@ x
 ## Theorie und Links
 Erklärung der Funktionsweise von [Ultraschallsensoren](https://www.microsonic.de/de/service/ultraschallsensoren/prinzip.htm "Ultraschallsensor Funktion")
 
-
 ## Sicherheitsaspekte
 Die erste Frage die sich bei dieser Konfiguration und Funktion stellt, ist die Umgebung für den Einsatz.
 Eine Überwachung kann und wird im privaten, wie auch im Geschäftlichen Bereich genutzt.
@@ -51,5 +50,6 @@ Hier sieht man eine Unvollständige Anforderungsliste, die unser Projekt bereits
 | Live Verschlüsselung      | <ul><li>- [ ] </li></ul>                                                                                       |
 | Video Aufzeichnung        | <ul><li>- [ ] </li></ul>                                                                                       |
 | Funktionelles Gehäuse     | <ul><li>- [x] Spezielles [Gehäuse](https://www.pi-shop.ch/gehause/kamera-gehaeuse "Kamera Gehäuse") </li></ul> |
+
 So ist der Verwendungsort Logischerweise im Privaten Bereich.
 Die Übertragung im Internen Netzwerk sollte Optimalerweise trotzdem verschlüsselt werden, hier eignet sich [TLS](https://www.heise.de/developer/artikel/Sichere-IoT-Kommunikation-mit-MQTT-Teil-1-Grundlagen-3645209.html?seite=all "MQTT Verschlüsselung erklärt")
