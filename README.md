@@ -36,6 +36,7 @@ x
 
 
 ## Theorie und Links
+
 Erklärung der Funktionsweise von [Ultraschallsensoren](https://www.microsonic.de/de/service/ultraschallsensoren/prinzip.htm "Ultraschallsensor Funktion")
 
 
@@ -68,19 +69,20 @@ Eine Erläuterung weshalb dieses Projekt bestimmt nicht eins zu eins im Geschäf
 Doch neben den Sicherheitsanpassungen sind auch weitere Punkte von Bedeutung, um dieses Equipment anzuwenden.  
 Erforderliche Schritte um das ganze nutzen können, werde ich nun auflisten:
 
-1. __Hardwareanforderungen:__  
+### Hardwareanforderungen
 Güstigere Version der Clients, eventuell  
 Bewegungsmelder mit grösserer Reichweitenabdeckung  
 Überwachungskamera  
 
-2. __Sicherheitsaspekte:__  
+### Sicherheitsaspekte
 Private IP Adresse  
 Firewall  
 TLS Verschlüsselung  
 VPN  
 Eigene Cloud  
-3.  __Handling:__  
+### Handling
 
-4. __Umgebung:__  
+### Umgebung
 
-5. __Fremdeinflüsse:__  
+
+### Fremdeinflüsse
