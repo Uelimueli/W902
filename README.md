@@ -58,7 +58,7 @@ Hier sieht man eine Unvollständige Anforderungsliste, die unser Projekt bereits
 So ist der Verwendungsort Logischerweise im Privaten Bereich.
 Die Kommunikation der 2 Raspberry Pi's läut über das Interne Netzwerk. Die Raspberry Pi erhalten je eine Private IP Adresse.
 Als erste Sperre für Angreifer fungiert hier Logischerweise eine konfigurierte Firewall.
-Die Übertragung sollte wenn möglich trotzdem verschlüsselt werden, hier eignet sich [TLS](http://www.kryptowissen.de/transport-layer-security-tls.php "TLS Verschlüsselung erklärt").
+Die Übertragung sollte wenn möglich trotzdem verschlüsselt werden, hier eignet sich [TLS](http://www.kryptowissen.de/transport-layer-security-tls.php "TLS Verschlüsselung erklärt").  
 Selbstverständlicherweise sollten die Geräte Wöchentliche Updates und Patches erhalten.
 Da wir keine öffentlichen IP Adressen verwenden, kann von Ausserhalb des Netzes keine direkte Verbindung hergestellt werden. Um die Geräte trotzdem zu verwalten, könnte man  eine VPN Verbîndung herstellen.
 Da wir im Beispiel eine Cloud von einem Externen Anbieter nutzten, müssen wir im in sachen Sicherheit [Vertrauen](https://www.dropbox.com/de/security#datensicherheit "Datensicherheit DropBox").
@@ -70,9 +70,9 @@ Doch neben den Sicherheitsanpassungen sind auch weitere Punkte von Bedeutung, um
 Erforderliche Schritte um das ganze nutzen können, werde ich nun auflisten:
 
 ### Hardwareanforderungen
-Güstigere Version der Clients, eventuell  
+Güstigere Alternative für die Rechner
 Bewegungsmelder mit grösserer Reichweitenabdeckung  
-Überwachungskamera  
+Überwachungskamera mit passender Auflösung 
 
 ### Sicherheitsaspekte
 Private IP Adresse  
@@ -82,7 +82,11 @@ VPN
 Eigene Cloud  
 ### Handling
 
+
 ### Umgebung
 
 
 ### Fremdeinflüsse
+Kompatibel mit bereits aktivem Equipment
+Datenschutzgesetz
+Einbindung in Sicherheitskonzept
