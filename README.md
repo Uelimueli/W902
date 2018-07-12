@@ -1,6 +1,6 @@
 # W902
-Elia Bruno, Michael Gerber
-Kamera überwachung mit einem Raspberry Pi 
+Elia Bruno, Michael Gerber  
+Kamera Überwachung mit einem Raspberry Pi 
 ## Übersicht
 1. Vorbereitung
 2. Beschreibung
@@ -10,7 +10,7 @@ Kamera überwachung mit einem Raspberry Pi
 6. Transfer in die Praxis
 
 ## Vorbereitung
-### Benötigtes Equipment:
+### Benötigtes Equipment
 * Ultrasonic Sensor - HC-SR04 [Ultrasonic Sensor](https://www.sparkfun.com/products/13959 "Ultrasonic Sensor Link")
 * Camera Module V2 [Kamera Modul](https://www.raspberrypi.org/products/camera-module-v2/ "Kamera Modul Link")
 * 2 Raspberry Pi [Raspberry Pi](https://www.raspberrypi.org/products/ "Raspberry Pi Link")
@@ -45,7 +45,7 @@ Einrichtung der Raspberry Pi [Kamera](https://raspberry.tips/faq/raspberry-pi-ka
 ## Sicherheitsaspekte
 Die erste Frage die sich bei dieser Konfiguration und Funktion stellt, ist die Umgebung für den Einsatz.
 Eine Überwachung kann und wird im privaten, wie auch im Geschäftlichen Bereich genutzt.
-Wenn man sich aber die Anforderungen und Standards einer Geschäftlichen Kamera überwachung anschaut, ist dieses Projekt nicht professioniell genug.
+Wenn man sich aber die Anforderungen und Standards einer Geschäftlichen Kamera Überwachung anschaut, ist dieses Projekt nicht professionell genug.
 Hier sieht man eine Unvollständige Anforderungsliste, die unser Projekt bereits nicht erfüllen würde.
 
 | Anforderungen             | Checkbox                                                                                                  |
@@ -58,12 +58,12 @@ Hier sieht man eine Unvollständige Anforderungsliste, die unser Projekt bereits
 | Funktionelles Gehäuse     | <ul><li>- [x] Raspy [Gehäuse](https://www.pi-shop.ch/gehause/kamera-gehaeuse "Kamera Gehäuse") </li></ul> |
 
 So ist der Verwendungsort Logischerweise im Privaten Bereich.
-Die Kommunikation der 2 Raspberry Pi's läut über das Interne Netzwerk. Die Raspberry Pi erhalten je eine Private IP Adresse.
+Die Kommunikation der 2 Raspberry Pi's läuft über das Interne Netzwerk. Die Raspberry Pi erhalten je eine Private IP Adresse.
 Als erste Sperre für Angreifer fungiert hier Logischerweise eine konfigurierte Firewall.
 Die Übertragung sollte wenn möglich trotzdem verschlüsselt werden, hier eignet sich [TLS](http://www.kryptowissen.de/transport-layer-security-tls.php "TLS Verschlüsselung erklärt").  
-Selbstverständlicherweise sollten die Geräte Wöchentliche Updates und Patches erhalten.
-Da wir keine öffentlichen IP Adressen verwenden, kann von Ausserhalb des Netzes keine direkte Verbindung hergestellt werden. Um die Geräte trotzdem zu verwalten, könnte man  eine VPN Verbîndung herstellen.
-Da wir im Beispiel eine Cloud von einem Externen Anbieter nutzten, müssen wir im in sachen Sicherheit [Vertrauen](https://www.dropbox.com/de/security#datensicherheit "Datensicherheit DropBox").
+Selbst verständlicherweise sollten die Geräte Wöchentliche Updates und Patches erhalten.
+Da wir keine öffentlichen IP Adressen verwenden, kann von Ausserhalb des Netzes keine direkte Verbindung hergestellt werden. Um die Geräte trotzdem zu verwalten, könnte man  eine VPN Verbindung herstellen.
+Da wir im Beispiel eine Cloud von einem Externen Anbieter nutzten, müssen wir im in Sachen Sicherheit [Vertrauen](https://www.dropbox.com/de/security#datensicherheit "Datensicherheit DropBox").
 Diese, für uns nicht kontrollierbare, Variabel könnte aber auch von uns Verwaltet werden. Beispielsweise mit einer eigenen [Cloud](https://owncloud.org/download/ "OwnCloud") auf einem Privaten [Server](https://www.hosttech.ch/server "Hosttech").
 
 ## Transfer in die Praxis
@@ -72,10 +72,10 @@ Doch neben den Sicherheitsanpassungen sind auch weitere Punkte von Bedeutung, um
 Erforderliche Schritte um das ganze nutzen können, werde ich nun auflisten:
 
 ### Hardwareanforderungen
-Günstigere Alternative für die Rechner
+Günstigere Alternative für die Rechner  
 Bewegungsmelder mit grösserer Reichweitenabdeckung  
 Überwachungskamera mit passender Auflösung  
-USV anschluss oder eigene Batterie
+Anschluss an USV oder eigene Batterie
 
 ### Sicherheitsaspekte
 Private IP Adresse  
@@ -84,12 +84,11 @@ TLS Verschlüsselung
 VPN  
 Eigene Cloud
 
-### Handling
-Gui für die Verwaltung
-
-
-### Umgebung
-Dem Wetter und Licht angepasste Umgebung
+### Handling und Umgebung
+Gui für die Verwaltung  
+Dem Wetter und Licht angepasste Umgebung  
+Datenbank für automatische Ereigniseinträge  
+Backup der Ereignisse der letzten Zeit
 
 
 ### Fremdeinflüsse
