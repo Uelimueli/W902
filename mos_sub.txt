@@ -1,0 +1,7 @@
+
+dist = mosquitto_sub -h 10.71.56.169 -t test
+
+if dist == "1":
+	subprocess.Popen(["python", "cam.py"])
+
+
