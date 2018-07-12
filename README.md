@@ -37,7 +37,7 @@ x
 
 ## Theorie und Links
 
-Erklärung der Funktionsweise von [Ultraschallsensoren](https://www.microsonic.de/de/service/ultraschallsensoren/prinzip.htm "Ultraschallsensor Funktion")
+Erklärung der Funktionsweise von [Ultraschallsensoren](https://www.microsonic.de/de/service/ultraschallsensoren/prinzip.htm "Ultraschallsensor Funktion").
 
 
 ## Sicherheitsaspekte
@@ -70,20 +70,24 @@ Doch neben den Sicherheitsanpassungen sind auch weitere Punkte von Bedeutung, um
 Erforderliche Schritte um das ganze nutzen können, werde ich nun auflisten:
 
 ### Hardwareanforderungen
-Güstigere Alternative für die Rechner
+Günstigere Alternative für die Rechner
 Bewegungsmelder mit grösserer Reichweitenabdeckung  
-Überwachungskamera mit passender Auflösung 
+Überwachungskamera mit passender Auflösung  
+USV anschluss oder eigene Batterie
 
 ### Sicherheitsaspekte
 Private IP Adresse  
 Firewall  
 TLS Verschlüsselung  
 VPN  
-Eigene Cloud  
+Eigene Cloud
+
 ### Handling
+Gui für die Verwaltung
 
 
 ### Umgebung
+Dem Wetter und Licht angepasste Umgebung
 
 
 ### Fremdeinflüsse
