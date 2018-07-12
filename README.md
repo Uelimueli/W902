@@ -28,17 +28,19 @@ Kamera überwachung mit einem Raspberry Pi
 5. Das Foto wird per [Skript](https://github.com/Uelimueli/W902) auf eine Cloud, im Beispiel Dropbox, geladen.
 
 ### Grafische Darstellung
-
 ![Grafik](https://github.com/Uelimueli/W902/blob/master/Grafik.png "Darstellung Grafisch")
 
 ## Konfiguration
 x
 
 
-## Theorie und Links
-
-Erklärung der Funktionsweise von [Ultraschallsensoren](https://www.microsonic.de/de/service/ultraschallsensoren/prinzip.htm "Ultraschallsensor Funktion").
-
+## Theorie Links
+Idee und Entstehung des [Raspberry Pi](https://de.wikipedia.org/wiki/Raspberry_Pi "Raspberry Pi Einführung").  
+Einführung in die Arbeit mit dem [MQTT Protokoll](https://www.predic8.de/mqtt.htm "MQTT Einführung").  
+Grundlagen für die Sprache [Python](https://www.webmasterpro.de/coding/article/einfuehrung-in-python-aufbau-und-grundlagen.html "Python Einführung").  
+Grundlagen und Einfrührung für [Shell Programmierung](https://www.selflinux.org/selflinux/pdf/shellprogrammierung.pdf "Shell Einführung").  
+Erklärung der Funktionsweise von [Ultraschallsensoren](https://www.microsonic.de/de/service/ultraschallsensoren/prinzip.htm "Ultraschallsensor Funktion").  
+Einrichtung der Raspberry Pi [Kamera](https://raspberry.tips/faq/raspberry-pi-kamera-einrichten-videos-und-fotos-erstellen "Kamera Einrichten").
 
 ## Sicherheitsaspekte
 Die erste Frage die sich bei dieser Konfiguration und Funktion stellt, ist die Umgebung für den Einsatz.
@@ -91,6 +93,6 @@ Dem Wetter und Licht angepasste Umgebung
 
 
 ### Fremdeinflüsse
-Kompatibel mit bereits aktivem Equipment
-Datenschutzgesetz
-Einbindung in Sicherheitskonzept
+Kompatibel mit bereits aktivem Equipment  
+Datenschutzgesetz  
+Einbindung in Sicherheitskonzept  
