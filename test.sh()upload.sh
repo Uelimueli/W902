@@ -1,0 +1,1 @@
+Dropbox-Uploader/dropbox_uploader.sh upload /home/pi/Bilder/picture.jpg /Apps/P$
