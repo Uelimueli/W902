@@ -21,10 +21,10 @@ Kamera Überwachung mit einem Raspberry Pi
 ## Beschreibung
 ### Funktionsprinzip
 1. Der Raspberry Pi mit dem angeschlossenen Ultraschall Sensor wird bei der zu überwachenden Türe Platziert.
-2. Mit dem Python [Skript](https://github.com/Uelimueli/W902/blob/master/dist2.txt) wird eine Meldung ausgegeben wenn eine Distanzveränderung stattfindet.
+2. Mit dem Python [Skript](https://github.com/Uelimueli/W902/blob/master/dist2.py) wird eine Meldung ausgegeben wenn eine Distanzveränderung stattfindet.
 3. Die Meldung wird per MQTT an den 2ten Raspberry Pi mit der Kamera geleitet.
-4. Der Kamera Raspberry Pi schiesst, ausgelöst von dem [Skript](https://github.com/Uelimueli/W902/blob/master/cam.txt), ein Foto von der Türe.
-5. Das Foto wird per [Skript](https://github.com/Uelimueli/W902/blob/master/test.sh()upload.txt) auf eine Cloud, im Beispiel Dropbox, geladen.
+4. Der Kamera Raspberry Pi schiesst, ausgelöst von dem [Skript](https://github.com/Uelimueli/W902/blob/master/cam.py), ein Foto von der Türe.
+5. Das Foto wird per [Skript](https://github.com/Uelimueli/W902/blob/master/test.sh()upload.sh) auf eine Cloud, im Beispiel Dropbox, geladen.
 
 ### Grafische Darstellung
 ![Grafik](https://github.com/Uelimueli/W902/blob/master/Grafik.png "Darstellung Grafisch")
